@@ -34,3 +34,44 @@ myName.toLowerCase();
 console.log(myName.toLowerCase);
 console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
 
+//added magic 8 ball code below
+var userName = 'Emily';
+var userQuestion = 'Will Emily get a software engineering position offer in the next 7 days?';
+var randomNumber = Math.floor(Math.random() * 8);
+var eightBall = '';
+
+ 
+if (userName == 'Emily'){
+    alert(`Hello ${userName}`);
+}
+else {
+    alert('Hello');
+
+}
+
+if (randomNumber == 0 && eightBall == '') {
+    alert('It is certain');
+}
+else if (randomNumber == 1) {
+        alert('Fo sure!!');
+    }
+else if (randomNumber == 2) {
+    alert('Ghosted... or life happens');
+}
+else if (randomNumber == 3) {
+    alert('Signs point to yes!');
+}
+else if (randomNumber == 4) {
+    alert('Maybe Later!');
+}
+else if (randomNumber == 5) {
+    alert('Bullseye!');
+}
+else if (randomNumber == 6) {
+    alert('Shake it again');
+}
+else if (randomNumber == 7) {
+    alert('Good luck, you are gonna need it!');
+}
+
+
